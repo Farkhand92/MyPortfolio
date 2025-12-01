@@ -25,7 +25,7 @@ const Header = () => {
           </div>
           
           <div className='text-center'>
-            <h1 className={`${bg} font-bold md:text-lg lg:text-lg p-2 border-2 border-white/30 rounded-xl backdrop-blur-sm font`}>
+            <h1 className={`${bg} font-bold md:text-md lg:text-lg p-2 border-2 border-white/30 rounded-xl backdrop-blur-sm font`}>
               MUHAMMAD FARKHAND WAQAR
             </h1>
 
@@ -36,7 +36,7 @@ const Header = () => {
           <h2 className='text-center border-b-2 border-solid border-amber-50/50 text-xl py-1 lg:py-3 bg-black/30 h1'>
             INTRODUCTION
           </h2>
-          <div className='pb-2 md:text-sm sm:text-xs lg:text-md xl:text-lg'>
+          <div className='pb-2 md:text-sm sm:text-xs lg:text-base/tight 2xl:text-lg'>
             {/* Add your introduction content here */}
             <p className='text-amber-50/90 text-center font p-2 xl:py-4'>
               I am a dedicated Full Stack MERN Developer skilled in building modern UIs and scalable backend systems. I work with React, Node.js, Express, MongoDB, Redux Toolkit, and Tailwind CSS to create complete, efficient applications. My projects reflect strong knowledge of REST APIs, ES6+, and clean development workflows using Git, GitHub, and Postman.
