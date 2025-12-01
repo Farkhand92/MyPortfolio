@@ -1,36 +1,36 @@
 import { useState } from 'react';
 import Card from '../components/Card';
-import { skills } from '../assets';
 import { FaGithub, FaExternalLinkAlt, FaInfoCircle } from "react-icons/fa";
-import {expenzaa, portfolio, aiChatBot} from "../assets"
+import {expenzaa, portfolio, aiChatBot , mini_yt} from "../assets"
 
 const projects = [
   {
     title: "Expense Tracker",
     image: expenzaa,
-    description: "Full-stack store using Node.js, Express, and MongoDB.",
+    description: "Full-stack expense tracker using React, Tailwind, Redux Tool Kit, Node.js, Express, and MongoDB.",
     github: "https://github.com/yourusername/ecommerce",
     live: "https://yourecommerce.com",
   },
   {
     title: "Portfolio Website",
     image: portfolio,
-    description: "A personal portfolio built with React and Tailwind CSS.",
+    description: "A personal portfolio with polish and fully responsive UI built with React and Tailwind CSS.",
     github: "https://github.com/yourusername/portfolio",
     live: "https://yourportfolio.com",
   },
   {
-    title: "AI Chat Bot",
-    image: aiChatBot,
-    description: "AI chatbot using vanilla HTML , CSS , JS and Gemini",
-    github: "https://github.com/yourusername/weatherapp",
-    live: "https://weatherapp-demo.com",
-  },
-  {
-    title: "Task Manager",
-    description: "Productivity app with real-time collaboration features.",
+    title: "Backend Youtube Mini",
+    image :mini_yt,
+    description: "Practice to implement some features of youtube backends using Node, Express and MongoDB",
     github: "https://github.com/yourusername/taskmanager",
     live: "https://taskmanager-demo.com",
+  },
+  {
+    title: "BMI with AI Chatbot",
+    image: aiChatBot,
+    description: "BMI web with AI chatbot using vanilla HTML , CSS , JS and Gemini",
+    github: "https://github.com/yourusername/weatherapp",
+    live: "https://weatherapp-demo.com",
   },
 ];
 
