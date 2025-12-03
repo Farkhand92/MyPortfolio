@@ -8,7 +8,7 @@ const Layout = () => {
     <main className="relative w-full min-h-screen bg-gradient-to-br from-black to-gray-900 overflow-x-hidden">
       
       {/* Social Icons - fixed to top right - Responsive sizing */}
-      <div className="fixed top-2 sm:top-3 md:top-4  xl:top-8 right-0 bg-gradient-to-br from-violet-800 to-indigo-900 flex gap-2 sm:gap-3 items-center px-3 sm:px-4 py-2 rounded-l-full shadow-lg z-50 border-2 border-white/30 backdrop-blur-sm social-icons">
+      <div className="fixed top-3  xl:top-8 right-0 bg-gradient-to-br from-violet-800 to-indigo-900 flex gap-2 sm:gap-3 items-center px-3 sm:px-4 py-2 rounded-l-full shadow-lg z-50 border-2 border-white/30 backdrop-blur-sm social-icons">
         <Link 
           to="/"
           className="text-white hover:text-red-500 transition-all duration-200 hover:scale-110" 
