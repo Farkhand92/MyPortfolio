@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Card = ({
   height = "h-60",
-  width = "w-70 lg:w-85",
+  width = "w-70 md:w-85",
   bgImg,
   bgOpacity = '1',
   cClass,

@@ -16,7 +16,7 @@ const Header = () => {
       <div className='w-full relative z-10 flex flex-col items-center justify-evenly p-3 md:p-6 h-full space-y-2 md:space-y-4'>
         
         {/* Profile Section */}
-          <div className={`${bg} w-32 h-32 md:w-38 md:h-38 lg:w-42 lg:h-42 2xl:h-55 2xl:w-55 border-4 border-white/20 flex items-center justify-evenly rounded-full overflow-hidden transform transition-transform hover:scale-105 image`}>
+          <div className={`${bg} min-h-30 xl:min-h-33 w-32 h-32 md:w-35 md:h-35 2xl:h-50 2xl:w-50 border-4 border-white/20 flex items-center justify-evenly rounded-full overflow-hidden transform transition-transform hover:scale-105 image`}>
             <img 
               src={myProfile} 
               alt="Muhammad Farkhand Waqar" 
@@ -25,20 +25,20 @@ const Header = () => {
           </div>
           
           <div className='text-center'>
-            <h1 className={`${bg} font-bold md:text-md lg:text-lg p-2 border-2 border-white/30 rounded-xl backdrop-blur-sm font`}>
+            <h1 className={`${bg} font-bold md:text-md 2xl:text-lg p-1 border-2 border-white/30 rounded-xl backdrop-blur-sm font`}>
               MUHAMMAD FARKHAND WAQAR
             </h1>
 
           </div>
         
         {/* Introduction Box */}
-        <div className={`${bg} w-full min-h-80 xl:min-h-90 border-2 border-white/30 rounded-2xl font-bold backdrop-blur-sm overflow-hidden`}>
-          <h2 className='text-center border-b-2 border-solid border-amber-50/50 text-xl py-1 lg:py-3 bg-black/30 h1'>
+        <div className={`${bg} w-full md:min-h-82 border-2 border-white/30 rounded-2xl font-bold backdrop-blur-sm overflow-hidden`}>
+          <h2 className='text-center border-b-2 border-solid border-amber-50/50 text-xl py-1 bg-black/30 h1'>
             INTRODUCTION
           </h2>
           <div className='pb-2 md:text-sm sm:text-xs lg:text-base/tight 2xl:text-lg'>
             {/* Add your introduction content here */}
-            <p className='text-amber-50/90 text-center font p-2 xl:py-4'>
+            <p className='text-amber-50/90 text-center font p-1 xl:py-4'>
               I am a dedicated Full Stack MERN Developer skilled in building modern UIs and scalable backend systems. I work with React, Node.js, Express, MongoDB, Redux Toolkit, and Tailwind CSS to create complete, efficient applications. My projects reflect strong knowledge of REST APIs, ES6+, and clean development workflows using Git, GitHub, and Postman.
             </p>
           </div>
