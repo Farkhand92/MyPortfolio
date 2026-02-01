@@ -16,11 +16,11 @@ const Header = () => {
       <div className='w-full relative z-10 flex flex-col items-center justify-evenly p-2 md:p-6 h-full space-y-2 md:space-y-4'>
         
         {/* Profile Section */}
-          <div className={`${bg} w-32 h-32 md:w-38 md:h-38 xl:w-40 xl:h-40 2xl:h-55 2xl:w-55 border-4 border-white/20 flex items-center justify-evenly rounded-full overflow-hidden transform transition-transform hover:scale-105 image`}>
+          <div className={`${bg} w-32 h-32 md:w-37 md:h-37 2xl:h-55 2xl:w-55 border-4 border-white/20 flex items-center justify-evenly rounded-full overflow-hidden transform transition-transform hover:scale-105 image`}>
             <img 
               src={myProfile} 
               alt="Muhammad Farkhand Waqar" 
-              className='h-full w-full object-cover' 
+              className='object-cover' 
             />
           </div>
           
@@ -36,7 +36,7 @@ const Header = () => {
           <h2 className='text-center border-b-2 border-solid border-amber-50/50 text-lg py-1 lg:py-2 bg-black/30 h1'>
             INTRODUCTION
           </h2>
-          <div className='pb-2 md:text-sm sm:text-xs  2xl:text-lg'>
+          <div className='pb-2 text-xs md:text-sm 2xl:text-lg'>
             {/* Add your introduction content here */}
             <p className='text-amber-50/90 text-center  p-2 xl:py-4'>
               I am a dedicated Full Stack MERN Developer skilled in building modern UIs and scalable backend systems. I work with React, Node.js, Express, MongoDB, Redux Toolkit, and Tailwind CSS to create complete, efficient applications. My projects reflect strong knowledge of REST APIs, ES6+, and clean development workflows using Git, GitHub, and Postman.
