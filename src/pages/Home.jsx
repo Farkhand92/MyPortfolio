@@ -30,7 +30,7 @@ const Home = () => {
   ];
 
   return (
-    <div className='w-full min-h-screen flex flex-wrap items-center justify-center md:justify-evenly p-2 md:p-8'>
+    <div className='w-full min-h-screen flex flex-wrap items-center justify-center md:justify-evenly'>
       {/* Cards - Smaller Cards */}
         {cardData.map((item, index) => (
           <Link 

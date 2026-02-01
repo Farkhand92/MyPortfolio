@@ -37,7 +37,7 @@ const Loader = ({ isLoading = true, children, logoText = "MUHAMMAD FARKHAND WAQA
     <>
       {/* Premium Loader Screen - Only shown when loading */}
       {showLoader && (
-        <div className="fixed inset-0 z-50 bg-gradient-to-br from-violet-800 via-black to-black flex items-center justify-center overflow-hidden">
+        <div className="fixed inset-0 z-50 bg-gradient-to-br from-violet-800 via-black to-black flex items-center justify-center overflow-hidden h-screen">
           {/* Animated Background Elements */}
           <div className="absolute inset-0 overflow-hidden">
             {/* Animated gradient orbs */}

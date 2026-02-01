@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <>
     <ScrollToTop />
-    <main className="relative w-full min-h-screen bg-gradient-to-br from-black to-gray-900 overflow-x-hidden">
+    <main className="relative w-full h-screen bg-gradient-to-br from-black to-gray-900 overflow-x-hidden">
       
       {/* Social Icons - fixed to top right - Responsive sizing */}
       <div className="fixed top-2 sm:top-3 md:top-4  xl:top-8 right-0 bg-gradient-to-br from-violet-800 to-indigo-900 flex gap-2 sm:gap-3 items-center px-3 sm:px-4 py-2 rounded-l-full shadow-lg z-50 border-2 border-white/30 backdrop-blur-sm social-icons">
@@ -63,7 +63,7 @@ const Layout = () => {
         <Header />
         
         {/* Main Content Area with proper responsive spacing */}
-        <div className="flex-1 md:ml-[280px] lg:ml-[320px] xl:ml-[400px] 2xl:ml-[450px] outlet p-2 sm:p-3 md:p-4 lg:p-6 min-h-screen">
+        <div className="flex-1 md:ml-[280px] lg:ml-[320px] xl:ml-[400px] 2xl:ml-[450px] outlet p-2 sm:p-3 md:p-4 lg:p-6 h-screen">
           <div className="w-full  mx-auto min-h-screen flex justify-center items-center">
             <Outlet />
           </div>

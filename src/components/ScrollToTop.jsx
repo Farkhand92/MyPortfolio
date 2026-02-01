@@ -11,14 +11,14 @@ const ScrollToTop = () => {
     if (scrollableContainer) {
       // Smooth scroll to top with transition
       scrollableContainer.scrollTo({
-        top: 0,
+        top: 20,
         behavior: 'smooth'
       });
     }
     
     // Fallback to window scroll with smooth behavior
     window.scrollTo({
-      top: 0,
+      top: 20,
       behavior: 'smooth'
     });
   }, [pathname]);
