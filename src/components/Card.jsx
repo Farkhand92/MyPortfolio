@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const Card = ({
-  height = "h-60",
-  width = "w-70 lg:w-85",
+  height = "h-55",
+  width = "w-70 lg:w-78 2xl:w-85",
   bgImg,
   bgOpacity = '1',
   cClass,

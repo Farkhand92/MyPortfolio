@@ -6,7 +6,7 @@ const Header = () => {
   
   return (
     <div 
-      className="w-full header md:fixed md:left-0 md:top-0 md:w-[290px] lg:w-[320px] 2xl:w-[380px] md:h-screen bg-no-repeat bg-center bg-cover text-amber-50 backdrop-blur-sm border-b-2 border-r-2 border-violet-950"
+      className="w-full header scroll-auto md:fixed md:left-0 md:top-0 md:w-[290px] lg:w-[320px] 2xl:w-[380px] md:h-screen bg-no-repeat bg-center bg-cover text-amber-50 backdrop-blur-sm border-b-2 border-r-2 border-violet-950"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Overlay for better text readability */}

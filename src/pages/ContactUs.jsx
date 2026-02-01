@@ -33,7 +33,7 @@ export default function ContactUs() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="flex justify-center items-center w-full form">
-      <div className={`h-lg md:max-h-screen w-md lg:w-xl 2xl:w-3xl ${bg} p-8 rounded-xl border border-white/20`}>
+      <div className={`min-height-[95%] md:max-h-screen w-md lg:w-lg 2xl:w-3xl ${bg} p-6 rounded-xl border border-white/20`}>
         <h1 className="text-3xl font-bold text-center mb-6 text-white">Contact Us</h1>
 
         <div className="space-y-5">
@@ -42,7 +42,7 @@ export default function ContactUs() {
             <label className="text-white">Full Name</label>
             <input
               {...register("name", { required: true })}
-              className="w-full mt-1 p-3 rounded bg-white/20 text-white focus:outline-none"
+              className="w-full mt-1 p-2 rounded bg-white/20 text-white focus:outline-none"
               placeholder="Enter your name"
             />
             {errors.name && <p className="text-red-300 text-sm">Name is required.</p>}
@@ -53,7 +53,7 @@ export default function ContactUs() {
             <label className="text-white">Email</label>
             <input
               {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
-              className="w-full mt-1 p-3 rounded bg-white/20 text-white focus:outline-none"
+              className="w-full mt-1 p-2 rounded bg-white/20 text-white focus:outline-none"
               placeholder="Enter your email"
             />
             {errors.email && <p className="text-red-300 text-sm">Valid email required.</p>}
@@ -64,7 +64,7 @@ export default function ContactUs() {
             <label className="text-white">Message</label>
             <textarea
               {...register("message", { required: true })}
-              className="w-full mt-1 p-3 rounded bg-white/20 text-white focus:outline-none"
+              className="w-full mt-1 p-2 rounded bg-white/20 text-white focus:outline-none"
               rows="5"
               placeholder="Your message..."
             />
@@ -74,7 +74,7 @@ export default function ContactUs() {
           {/* Submit Button */}
           <button
             type="submit"
-            className={`w-full p-3 rounded font-semibold transition ${
+            className={`w-full p-2 rounded font-semibold transition ${
               isSending ? "bg-gray-500 cursor-not-allowed" : "bg-violet-600 hover:bg-violet-700 text-white"
             }`}
             disabled={isSending} // disable while sending

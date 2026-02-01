@@ -2,9 +2,12 @@ import Header from './components/Header.jsx'
 import { Outlet , Link} from 'react-router-dom'
 import { FaGithub, FaLinkedin ,FaPhoneAlt, FaHome} from "react-icons/fa";
 import { HiDocumentText } from "react-icons/hi";
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 const Layout = () => {
   return (
+    <>
+    <ScrollToTop />
     <main className="relative w-full min-h-screen bg-gradient-to-br from-black to-gray-900 overflow-x-hidden">
       
       {/* Social Icons - fixed to top right - Responsive sizing */}
@@ -67,6 +70,7 @@ const Layout = () => {
         </div>
       </div>
     </main>
+    </>
   )
 }
 

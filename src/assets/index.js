@@ -9,6 +9,7 @@ import expenzaa from '../assets/expenzaa.png';
 import portfolio from '../assets/portfolio.png';
 import aiChatBot from '../assets/AI_ChatBot.png'
 import mini_yt from '../assets/mini_yt.png'
+import logo from '../assets/white_on_trans.png'
 
 export {
   skills,
@@ -20,5 +21,6 @@ export {
   expenzaa,
   portfolio,
   aiChatBot,
-  mini_yt
+  mini_yt,
+  logo
 };
