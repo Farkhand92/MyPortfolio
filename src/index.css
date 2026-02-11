@@ -9,6 +9,9 @@
   }
   
   @media (min-width: 2560px) {
+    :root {
+      --screen-3xl: 2560px;
+    }
     .card{
       height: 350px;
       width: 650px;

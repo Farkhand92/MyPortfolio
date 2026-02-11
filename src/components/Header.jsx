@@ -16,7 +16,7 @@ const Header = () => {
       <div className='w-full relative z-10 flex flex-col items-center justify-evenly p-2 md:p-6 h-full space-y-2 md:space-y-4'>
         
         {/* Profile Section */}
-          <div className={`${bg} w-32 h-32 md:w-35 md:h-35 2xl:h-52 2xl:w-52 border-4 border-white/20 flex items-center justify-evenly rounded-full overflow-hidden transform transition-transform hover:scale-105 image`}>
+          <div className={`${bg} min-w-32 min-h-32 md:w-32 md:h-32 xl:h-40 xl:w-40 2xl:h-48 2xl:w-48 3xl:h-55 3xl:w-55 border-4 border-white/20 flex items-center justify-evenly rounded-full overflow-hidden transform transition-transform hover:scale-105 image`}>
             <img 
               src={myProfile} 
               alt="Muhammad Farkhand Waqar" 
@@ -32,11 +32,11 @@ const Header = () => {
           </div>
         
         {/* Introduction Box */}
-        <div className={`${bg} w-full sm:min-h-80 md:min-h-70 border-2 border-white/30 rounded-2xl font-bold backdrop-blur-sm overflow-hidden`}>
+        <div className={`${bg} w-full sm:min-h-80 md:min-h-55 border-2 border-white/30 rounded-2xl font-bold backdrop-blur-sm overflow-hidden`}>
           <h2 className='text-center border-b-2 border-solid border-amber-50/50 text-lg lg:py-1 bg-black/30 h1'>
             INTRODUCTION
           </h2>
-          <div className='pb-2 text-xs md:text-sm 2xl:text-lg 2xl:leading-snug'>
+          <div className='pb-2 text-xs xl:text-sm xl:leading-snug 2xl:text-lg 2xl:leading-snug'>
             {/* Add your introduction content here */}
             <p className='text-amber-50/90 text-center p-2 '>
               I am a dedicated Full Stack MERN Developer skilled in building modern UIs and scalable backend systems. I work with React, Node.js, Express, MongoDB, Redux Toolkit, and Tailwind CSS to create complete, efficient applications. My projects reflect strong knowledge of REST APIs, ES6+, and clean development workflows using Git, GitHub, and Postman.
